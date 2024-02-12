@@ -30,7 +30,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["gene-symbol", "coembedding"],
-  "seperator": "\t",
+  "separator": "\t",
   "header": true,
   "examples": []
 }

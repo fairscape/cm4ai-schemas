@@ -216,7 +216,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["gene-symbol"],
-  "seperator": "\t",
+  "separator": "\t",
   "header": true,
   "examples": []
 }

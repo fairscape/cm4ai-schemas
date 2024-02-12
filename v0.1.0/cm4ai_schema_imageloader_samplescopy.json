@@ -68,7 +68,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["filename", "if_plate_id", "position", "sample", "antibody", "ensembl_ids"],
-  "seperator": ",",
+  "separator": ",",
   "header": true,
   "examples": []
 }

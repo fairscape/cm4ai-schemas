@@ -32,7 +32,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["name", "represents", "bait"],
-  "seperator": "\t",
+  "separator": "\t",
   "header": true,
   "examples": []
 }
