@@ -55,14 +55,14 @@
         "type": "string",
         "multiple": true,
         "seperator": ";",
-        "pattern": "ENSG[0-9]{11}"
+        "pattern": "^(?:ENSG[0-9]{11})(;?ENSG[0-9]{11})*$|^nan$"
     },
     "gene_name": {
       "description": "Gene Symbol for the tagged protien",
       "index": 7,
       "valueURL": "http://edamontology.org/data_1026",
       "type": "string",
-      "pattern": "[A-Z0-9]*"
+      "pattern": null 
     }
   },
   "type": "object",

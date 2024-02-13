@@ -22,7 +22,7 @@
           "type": "string",
           "multiple": true,
           "seperator": ";",
-          "pattern": "ENSG[0-9]{11}"
+          "pattern": "^(?:ENSG[0-9]{11})(;?ENSG[0-9]{11})*$|^nan$"
     },
     "gene_names": {
         "description": "Gene Names for the Protien",
