@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 0.1.1
+title: CM4AI Schemas
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Maxwell Adam
+    family-names: Levinson
+    email: mal8ch@virginia.edu
+    affiliation: University of Virginia
+    orcid: 'https://orcid.org/0000-0003-0384-8499'
+  - given-names: Sadnan
+    family-names: Al Manir
+    affiliation: University of Virginia
+    email: ma3xy@virginia.edu
+    orcid: 'https://orcid.org/0000-0003-4647-3877'
+  - given-names: Timothy
+    family-names: Clark
+    email: twclark@virginia.edu
+    affiliation: University of Virginia
+    orcid: 'https://orcid.org/0000-0003-4060-7360'
+repository-code: 'https://github.com/fairscape/cm4ai-schemas'
+url: 'https://fairscape.net'
+abstract: >-
+  Repository of Schemas used for data validation in the NIH CM4AI Project. 
+  To be used in conjunction with the fairscape-cli tool to validate tabular and image data formats.
+
+  FAIRSCAPE is supported by the U.S. National Institutes of
+  Health Bridge2AI program under grants OT2OD032742
+  [Bridge2AI: Cell Maps for AI (CM4AI) Data Generation
+  Project] and OT2OD032701 [Bridge2AI: Patient-Focused
+  Collaborative Hospital Repository Uniting Standards
+  (CHoRUS) for Equitable AI],  and by the Frederick Thomas
+  Fund of the University of Virginia.
+keywords:
+  - FAIR
+  - Data Science
+  - metadata
+  - data-validation
+  - EVI
+  - Ontology
+  - Provenance
+license: MIT
